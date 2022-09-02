@@ -1,0 +1,385 @@
+.navbar {
+  background-color: black !important;
+  opacity: 0.8;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 15px;
+}
+
+.icon{
+  height: 2rem;
+  width: 2rem;
+}
+
+.nav-link .apple-logo {
+  color: white !important;
+  font-size: 22px;
+  line-height: 0;
+}
+
+body {
+  padding-top: 55px;
+}
+
+.product {
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .product {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.product h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .product h1 {
+    font-size: 56px;
+    font-weight: bold;
+  }
+}
+
+.product h2 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  .product h2 {
+    font-size: 27px;
+    font-weight: 400;
+  }
+}
+
+.product .links {
+  font-size: 21px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 576px) {
+  .product .links {
+    font-size: 21px;
+    margin-bottom: 80px;
+  }
+}
+
+.product .links .learn-more {
+  margin-right: 20px;
+}
+
+.product.iphone-x {
+  background-color: #f5f5f7;
+}
+
+.product.iphone-x img {
+  object-fit: cover;
+  height: 422px;
+  width: auto;
+  padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .product.iphone-x img {
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .product.iphone-x img {
+    object-fit: fill;
+    height: auto;
+    width: auto;
+  }
+}
+
+.product.ipad {
+  background-color: #fbfbfd;
+}
+
+.product.ipad .mac_air_img {
+  margin-top: -55px;
+  margin-bottom: 10px;
+  padding-right: 30px;
+  object-fit: cover;
+  width: auto;
+  height: 313px;
+}
+
+@media (min-width: 576px) {
+  .product.ipad .mac_air_img {
+    margin-top: -80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product.ipad .mac_air_img {
+    margin-top: 0;
+    margin-bottom: 0;
+    object-fit: cover;
+    padding-right: 0;
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product.ipad img {
+    width: auto;
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+.product.macbook {
+  background-color: #fbfbfd;
+}
+
+.product.macbook img {
+  object-fit: cover;
+  height: 272px;
+  width: auto;
+  padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .product.macbook img {
+    object-fit: fill;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+  }
+}
+
+.product.dark {
+  color: white !important;
+}
+
+.product.dark a {
+  color: white !important;
+}
+
+.product .links.small-link-margin {
+  margin-bottom: 0;
+}
+
+.product .links a {
+  text-decoration: none;
+}
+
+.product-small {
+  height: 550px;
+  padding-top: 40px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .product-small {
+    margin: 0 0 10px 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.product-small h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-small h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.i13head {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.product-small .links {
+  font-size: 17px;
+  margin-bottom: 80px;
+}
+
+.product-small .links .learn-more {
+  margin-right: 20px;
+}
+
+.product-small .links.small-link-margin {
+  margin-bottom: 20px;
+}
+
+.product-small .links a {
+  text-decoration: none;
+}
+
+.product-small .links a:hover {
+  text-decoration: underline;
+}
+
+.product-small.behind-the-mac.dark {
+  padding-top: 370px;
+}
+
+.air-pod .links a {
+  color: white !important;
+}
+
+.product-small.dark {
+  color: white !important;
+}
+
+.col-md-6 {
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  padding-right: 0;
+}
+
+@media (min-width: 576px) {
+  .product-grid {
+    padding-right: 10px;
+  }
+}
+
+.product-small.watch h5 {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.banner div {
+  padding: 15px 0;
+}
+
+.banner a {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .banner a {
+    margin-left: 19px;
+  }
+}
+
+footer .footnote {
+  padding: 0;
+  font-size: 1em;
+  color: #6e6e73;
+}
+
+footer .footnote a {
+  font-size: 1em;
+  color: #6e6e73;
+  text-decoration: none;
+}
+
+footer .footnote a:hover {
+  text-decoration: underline;
+}
+
+footer .footnote p {
+  color: #6e6e73;
+  font-size: 12px;
+  padding: 0 5%;
+  margin-bottom: -30px;
+  margin-top: 0;
+}
+
+.page-footer .footnote{
+  margin-bottom: -10px;
+}
+
+.page-footer .footer-end h4 {
+  font-size: 13px;
+  line-height: 1.33337;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.page-footer .footer-links li a {
+  font-size: 12px !important;
+  line-height: 1.33337;
+  font-weight: 400;
+  color: #424245;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.page-footer .footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.page-footer .footer-end {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.page-footer .footer-end .footer-row {
+  width: 100% !important;
+}
+
+.page-footer .footer-end .footer-contact {
+  margin-top: 10px;
+  font-size: 12px !important;
+}
+
+.page-footer .footer-end .footer-contact a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.page-footer .footer-end .footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.footer-legal {
+  margin-top: -10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer-legal h5, .footer-legal p, .footer-legal a {
+  font-size: 12px !important;
+}
+
+.footer-legal a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-legal h5 {
+  text-decoration: none;
+  font-weight: 600;
+  color: #424245;
+}
+
+.footer-legal a:hover, .footer-legal h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-end {
+  width: 100% !important;
+}
+
