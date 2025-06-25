@@ -61,21 +61,21 @@ We're open to:
 ---
 
 ## 📂 Repository Structure
-stubble-burning-website/
-├── index.html
-├── about.html
-├── contact.html
-├── product.html
-├── stubble.html
-├── support.html
-├── style.css
-└── images/
-├── logo.png
-├── drone.jpg
-├── eco.png
-├── drone-icon.png
-├── farmer-icon.png
-├── member1.jpg ...
+stubble-burning-website/<br>
+├── index.html<br>
+├── about.html<br>
+├── contact.html<br>
+├── product.html<br>
+├── stubble.html<br>
+├── support.html<br>
+├── style.css<br>
+└── images/<br>
+├── logo.png<br>
+├── drone.jpg<br>
+├── eco.png<br>
+├── drone-icon.png<br>
+├── farmer-icon.png<br>
+├── member1.jpg ...<br>
 
 ---
 
